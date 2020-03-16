@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_ios_network_monitor (0.0.1):
+    - Flutter
+    - ReachabilitySwift
+  - ReachabilitySwift (5.0.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_ios_network_monitor (from `.symlinks/plugins/flutter_ios_network_monitor/ios`)
+
+SPEC REPOS:
+  trunk:
+    - ReachabilitySwift
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_ios_network_monitor:
+    :path: ".symlinks/plugins/flutter_ios_network_monitor/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_ios_network_monitor: 92234179647141cf30a41dfeb4cce28bfe35cfa4
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+
+PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
+
+COCOAPODS: 1.8.4

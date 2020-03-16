@@ -1,8 +1,8 @@
 name: flutter_ios_network_monitor
-description: A new flutter plugin project.
+description: To provide a event channel for Flutter to subscribe network interface changes event
 version: 0.0.1
-author:
-homepage:
+author: Ren-Wei, Luo <z141134553@gmail.com>
+homepage: https://github.com/SDxBacon/flutter-ios-network-monitor
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

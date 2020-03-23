@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'dart:async';
-
 import 'package:flutter/services.dart';
+
 import 'package:flutter_ios_network_monitor/flutter_ios_network_monitor.dart';
 
 void main() => runApp(MyApp());
@@ -17,12 +16,8 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    initPlatformState();
-  }
-
-  // Platform messages are asynchronous, so we initialize in an async method.
-  Future<void> initPlatformState() async {
-    EventChannel eventChannel = FlutterIosNetworkMonitor.createEventChannel;
+    // Starting to listen eventChannel for network changed.
+    EventChannel eventChannel = FlutterIosNetworkMonitor.eventChannel;
     eventChannel.receiveBroadcastStream().listen(_onEvent);
   }
 
